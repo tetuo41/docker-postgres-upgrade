@@ -18,7 +18,7 @@ RUN set -eux; \
 ENV PGBINOLD /usr/lib/postgresql/11/bin
 ENV PGBINNEW /usr/lib/postgresql/12/bin
 
-ENV PGDATAOLD /var/lib/postgresql/11/data
+ENV PGDATAOLD /var/lib/postgresql/11/data/pgdata
 ENV PGDATANEW /var/lib/postgresql/12/data
 
 RUN set -eux; \
